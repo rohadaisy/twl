@@ -13,7 +13,7 @@ Vue.createApp({
       getJumbotron() {
         axios
           .get(
-            "https://raw.githubusercontent.com/rohadaisy/tekweb2022/master/contents/jumbotron.json"
+            "https://github.com/rohadaisy/tekweb2022/blob/main/contents/jumbotron.json"
           )
           .then((res) => {
             this.jumbotron = res.data;
@@ -29,7 +29,7 @@ Vue.createApp({
       getAbout() {
         axios
           .get(
-            "https://raw.githubusercontent.com/rohadaisy/tekweb2022/master/contents/about.json"
+            "https://github.com/rohadaisy/tekweb2022/blob/main/contents/about.json"
           )
           .then((res) => {
             this.about = res.data;
@@ -41,7 +41,7 @@ Vue.createApp({
       getArticles() {
         axios
           .get(
-            "https://raw.githubusercontent.com/rohadaisy/tekweb2022/portfolio/contents/articles.json"
+            "https://github.com/rohadaisy/tekweb2022/blob/main/contents/articles.json"
           )
           .then((res) => {
             this.articles = res.data;
@@ -50,22 +50,10 @@ Vue.createApp({
             console.log(error);
           });
       },
-      getPorject() {
-        axios
-          .get(
-            "https://raw.githubusercontent.com/rohadaisy/tekweb2022/master/contents/project.json"
-          )
-          .then((res) => {
-            this.project = res.data;
-          })
-          .catch((error) => {
-            console.log(error);
-          });
-      },
       getJudul() {
         axios
           .get(
-            "https://raw.githubusercontent.com/rohadaisy/tekweb2022/master/contents/judul.json"
+            "https://github.com/rohadaisy/tekweb2022/blob/main/contents/judul.json"
           )
           .then((res) => {
             this.judul = res.data;
