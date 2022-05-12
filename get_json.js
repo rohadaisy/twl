@@ -13,7 +13,7 @@ Vue.createApp({
       getJumbotron() {
         axios
           .get(
-            "https://github.com/rohadaisy/tekweb2022/blob/main/contents/jumbotron.json"
+            "https://raw.githubusercontent.com/Rohadaisy/tekweb2022/master/contents/jumbotron.json"
           )
           .then((res) => {
             this.jumbotron = res.data;
@@ -29,7 +29,7 @@ Vue.createApp({
       getAbout() {
         axios
           .get(
-            "https://github.com/rohadaisy/tekweb2022/blob/main/contents/about.json"
+            "https://raw.githubusercontent.com/Rohadaisy/tekweb2022/master/contents/about.json"
           )
           .then((res) => {
             this.about = res.data;
@@ -41,7 +41,7 @@ Vue.createApp({
       getArticles() {
         axios
           .get(
-            "https://github.com/rohadaisy/tekweb2022/blob/main/contents/articles.json"
+            "https://raw.githubusercontent.com/Rohadaisy/tekweb2022/master/contents/articles.json"
           )
           .then((res) => {
             this.articles = res.data;
@@ -53,7 +53,7 @@ Vue.createApp({
       getJudul() {
         axios
           .get(
-            "https://github.com/rohadaisy/tekweb2022/blob/main/contents/judul.json"
+            "https://raw.githubusercontent.com/Rohadaisy/tekweb2022/master/contents/judul.json"
           )
           .then((res) => {
             this.judul = res.data;
