@@ -47,7 +47,6 @@
 
     <!-- Jumbotron  -->
     <section class="jumbotron text-center">
-      <img id="profil" v-bind:src="jumbotron.image" alt="Aisy" class="rounded-circle shadow-lg">
         <h1>{{ message }}</h1>
         <h1>{{ jumbotron.nama }}</h1>
         <h4>{{ jumbotron.description }}</h4>
@@ -80,32 +79,32 @@
 
     <!-- Articles -->
     <section id="articles" style="margin-top: -1%">
-        <div class="container">
-          <div class="row text-center mb-3">
-            <div class="col">
-              <h2 style="font-weight: bold">{{judul.article}}</h2>
-            </div>
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2 style="font-weight: bold">{{judul.article}}</h2>
           </div>
-          <div class="row g-4 justify-content-center">
-            <!--Card 1-->
-            <div class="col-md-4" v-for="item in articles">
-              <div class="card h-100" data-aos-offset="200" data-aos="flip-left" data-aos-duration="900" data-aos-delay="200">
-                <div class="card-body p-3">
-                  <a v-bind:href="item.url" target="_blank">
-                    <img v-bind:src="item.thumbnail" class="card-img-top" alt="..." height="" />
-                  </a>
-                  <h5 class="card-title"><a v-bind:href="item.url" target="_blank" style="font-size: x-large; text-decoration: none; color: black">{{item.title}}</a></h5>
-                  <p class="card-text text-secondary small">{{ item.description }}</p>
-                  <a :href="'./read.html?article='+item.content" class="btn btn-danger" role="button">Read more</a>
-                </div>
-                <div class="card-footer">
-                  <small>{{item.published_at}}</small>
-                </div>
+        </div>
+        <div class="row g-4 justify-content-center">
+          <!--Card 1-->
+          <div class="col-md-4" v-for="item in articles">
+            <div class="card h-100" data-aos-offset="200" data-aos="flip-left" data-aos-duration="900" data-aos-delay="200">
+              <div class="card-body p-3">
+                <a v-bind:href="item.url" target="_blank">
+                  <img v-bind:src="item.thumbnail" class="card-img-top" alt="..." height="" />
+                </a>
+                <h5 class="card-title"><a v-bind:href="item.url" target="_blank" style="font-size: x-large; text-decoration: none; color: black">{{item.title}}</a></h5>
+                <p class="card-text text-secondary small">{{ item.description }}</p>
+                <a :href="'./read.html?article='+item.content" class="btn btn-danger" role="button">Read more</a>
+              </div>
+              <div class="card-footer">
+                <small>{{item.published_at}}</small>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
     <!-- End Articles -->
 
     <!-- Contact -->
