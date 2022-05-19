@@ -85,17 +85,17 @@
             <h2> {{judul.article}} </h2>
           </div>
         </div>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-          <!--Card 1-->
-          <div class="col-md-4" v-for="item in articles">
-            <div class="card">
-              <img class="card-img-top" v-bind:src="item.thumbnail" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">{{item.title}}</h5>
-                <p class="card-text">{{item.description}}</p>
-                <a href="#" class="btn btn-primary">Read</a>
-              </div>
-        </div>
+        <div class="row">        
+        <div class="col-md-4" v-for="item in articles">
+          <div class="card">
+            <img class="card-img-top" v-bind:src="item.thumbnail" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">{{item.title}}</h5>
+              <p class="card-text">{{item.description}}</p>
+              <a href="#" class="btn btn-primary">Read</a>
+            </div>
+          </div>
+        </div>   
       </section>
     <!-- End Articles -->
 
