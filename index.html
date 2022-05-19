@@ -87,21 +87,14 @@
         </div>
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <!--Card 1-->
-          <div class="col" v-for="item in articles">
-            <div class="card h-100">
-              <a v-bind:href="item.url" target="_blank">
-                <img v-bind:src="item.thumbnail" class="card-img-top" alt="..." height="">
-              </a>
+          <div class="col-md-4" v-for="item in articles">
+            <div class="card">
+              <img class="card-img-top" v-bind:src="item.thumbnail" alt="Card image cap">
               <div class="card-body">
-                <h5 class="card-title"> <a v-bind:href="item.url" target="_blank"
-                    style="font-size: x-large; text-decoration: none; color: black;">{{item.title}}</a></h5>
-                <p class="card-text">{{ item.description }}</p>
+                <h5 class="card-title">{{item.title}}</h5>
+                <p class="card-text">{{item.description}}</p>
+                <a href="#" class="btn btn-primary">Read</a>
               </div>
-              <div class="card-footer">
-                <small class="text-muted">{{item.published_at}}</small>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
     <!-- End Articles -->
