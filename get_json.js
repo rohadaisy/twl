@@ -65,5 +65,8 @@ Vue.createApp({
     },
     beforeMount() {
       this.getJumbotron()
+      this.getAbout()
+      this.getArticles()
+      this.getJudul()
     },
   }).mount("#app");
