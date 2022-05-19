@@ -5,19 +5,5 @@
         "description": "Female Daily merupakan salah satu startup yang berangkat dari hobi blogging yang dilakukan Hanifa Ambadar dan Affi Assegaf. Semula mereka berdua mengerjakan Female Daily secara paruh waktu di sela-sela kesibukan mereka sebagai karyawan.",
         "thumbnail": "http://image.femaledaily.com/dyn/480/images/user-pics/c819a8ae00d7cc01120f9010edb3890b.jpg",
         "published_at": "Last updated 01/05/2022",
-    },
-    {
-        "url":"https://www.petanikode.com/",
-        "title":"W3Schools",
-        "description": "W3Schools adalah situs web developer informasi, dengan tutorial dan referensi yang berkaitan dengan topik pengembangan web seperti HTML, CSS, JavaScript, PHP, SQL, dan JQuery. Situs ini mendapatkan namanya dari singkatan untuk World Wide Web; W3 adalah numeronym dari WWW.",
-        "thumbnail": "https://yt3.ggpht.com/dW6to0x5Crmeh7yi-YPLcQRqVrBtx2BSh8eoKTJbE8NbjloQ0sqlmdszIlxokJU_97-ndOt_=s900-c-k-c0x00ffffff-no-rj",
-        "published_at": "Last updated 05/05/2022",
-    },
-    {
-        "url":"https://www.dicoding.com/",
-        "title":"Dicoding",
-        "description": "Dicoding adalah sebuah perusahaan startup yang bertujuan mengembangkan ekosistem developer di Indonesia. Berdiri sejak 5 Januari 2015, Dicoding memiliki platform pembelajaran elektronik di laman Dicoding.com.",
-        "thumbnail": "https://img20.jd.id/Indonesia/s400x400_/amZzL3Q2Ny81OC82MDk3MDY0MTUvMjI0MTIvYjU0M2JlY2YvNWVhN2YyNzhOYzY1MGVjZGU.png",
-        "published_at": "Last updated 10/05/2022",
     }
 ]
